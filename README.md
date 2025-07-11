@@ -36,3 +36,25 @@
 
 ## AWS Deployment
 * Head over to your aws account and create an ec2 instance
+
+![](./img/Pasted%20image%20(6).png)
+
+* Connect to the EC2 instance using ssh.
+
+![](./img/Pasted%20image%20(8).png)
+
+### Clone the repo on the EC2 Instance.
+
+* Head over to your github account, click the repo and copy url to clone via ssh
+
+![](./img/Pasted%20image%20(9).png)
+
+* On the EC2 terminal run `ssh-keygen` to generate SSH keypair 
+
+![](./img/Pasted%20image%20(10).png)
+
+* Run `cat /home/ec2-user/.ssh/id_rsa.pub` to view the public key.
+
+![](./img/Pasted%20image%20(38).png)
+
+^ Copy the public key and head over to your github account.
