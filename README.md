@@ -96,3 +96,17 @@
 * Run `sudo systemctl enable httpd` to httpd start on server boot.
 
 ![](./img/Pasted%20image%20(18).png)
+
+### Configure httpd for MarketPeak_Ecommerce
+
+#### Setup httpd to point to the directory cloned from your git repo earlier.
+* Clear the default httpd web directory. Run `sudo rm -rf /var/www/html/*`
+
+* Copy MarketPeak_Ecommerce directory to httpd web directory '/var/www/html'. Run `sudo cp -r ~/MarketPeak_Ecommerce/* /var/www/html/`
+
+![](./img/Pasted%20image%20(19).png)
+
+* Reload httpd, to apply the changes. Run `sudo systemctl reload httpd`
+
+![](./img/Pasted%20image%20(20).png)
+
