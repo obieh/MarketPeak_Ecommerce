@@ -69,3 +69,30 @@
 
 ![](./img/Pasted%20image%20(13).png)
 
+* On the EC2 terminal, run `sudo yum install git -y` to install git if you have not already.
+
+![](./img/Pasted%20image%20(14).png)
+
+* Verify git installation, run `git --version`
+
+![](./img/Pasted%20image%20(15).png)
+
+
+* clone the MarketPeak_Ecommerce repo via ssh using the ssh url copied earlier.`git clone git@github.com:yourusername/MarketPeak_Ecommerce.git`
+
+![](./img/Pasted%20image%20(16).png)
+
+
+### Install Apache HTTP Server on the EC2 instance.
+
+* Run `sudo yum update -y` to update the server.
+
+* Run `sudo yum install httpd -y` to install apache webserver.
+
+![](./img/Pasted%20image%20(17).png)
+
+* Run `sudo systemctl start httpd` to start the server
+
+* Run `sudo systemctl enable httpd` to httpd start on server boot.
+
+![](./img/Pasted%20image%20(18).png)
