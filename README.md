@@ -57,4 +57,15 @@
 
 ![](./img/Pasted%20image%20(38).png)
 
-^ Copy the public key and head over to your github account.
+* Copy the public key and head over to your github account. Click your profile settings and click 'ssh and GPG keys' on the left. Then click 'New SSH key' towards the top right.
+
+![](./img/Pasted%20image%20(11).png)
+
+* Add a title, 'Key type' should be 'Authrntication Key' then paste the key generated and copied from the EC2 instance.
+
+![](./img/Pasted%20image%20(12).png)
+
+* Click 'Add SSH key' to add and save the key on yor github account.
+
+![](./img/Pasted%20image%20(13).png)
+
