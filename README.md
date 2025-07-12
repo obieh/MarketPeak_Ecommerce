@@ -174,5 +174,24 @@
 
 ![](./img/Pasted%20image%20(34).png)
 
+## Deploy Updates to the Production Server.
 
+* On the EC2 terminal, cd to the MarkPeak_Ecommerce folder cloned from your git repo earlier. Run `git pull origin master` to get the latest changes from github to instance.
 
+![](./img/Pasted%20image%20(35).png)
+
+### Copy the updated MarketPeak_Ecommerce to the webserver folder.
+
+* Run `cd ..` to go one step back to the user home folder.
+
+* Run `sudo cp -r ~/MarketPeak_Ecommerce/* /var/www/html/`
+
+* Run `sudo systemctl reload httpd` to apply the changes
+
+![](./img/Pasted%20image%20(36).png)
+
+### Head back you the browser and refresh the psge with the EC2 instance public IP as URL.
+
+![](./img/Pasted%20image%20(37).png)
+
+### Indeed we can see the changes we made to the free shipping order threshold. The update is deployed successfully.
