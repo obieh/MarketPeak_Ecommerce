@@ -132,10 +132,47 @@
 ![](./img/Pasted%20image%20(39).png)
 
 * Stage the change you just made to index.html file. Run `git add index.html`
+
 * Commit the changes to your local git repo. Run `git commit -m "Add new features or fix bugs"`
 
 ![](./img/Pasted%20image%20(24).png)
 
+* Push the commited changes to the remote repository branch. Run `git push origin master`
+
+![](./img/Pasted%20image%20(25).png)
+
+### The development branch is now ahead of the main/master branch. Head over to your github repo and create a pull request.
+
+![](./img/Pasted%20image%20(26).png)
+
+### Add a description if necessary and create pull request.
+
+[](./img/Pasted%20image%20(27).png)
+
+### Review to make there is no conflict and then merge the pull Request
+
+![](./img/Pasted%20image%20(28).png)
+
+### Commit the changes
+
+![](./img/Pasted%20image%20(29).png)
+
+### You should a message window affirming the pull and merge success.
+
+![](./img/Pasted%20image%20(30).png)
+
+### Run `git checkout master` to exit the development branch and move to main/master.
+
+![](./img/Pasted%20image%20(31).png)
+![](./img/Pasted%20image%20(32).png)
+
+### Push the merged changes but merge the master to the development branch locally first.
+
+![](./img/Pasted%20image%20(33).png)
+
+### Then now push to the main / master branch.
+
+![](./img/Pasted%20image%20(34).png)
 
 
 
