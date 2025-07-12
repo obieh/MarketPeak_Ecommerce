@@ -110,3 +110,32 @@
 
 ![](./img/Pasted%20image%20(20).png)
 
+### Access Website from Browser.
+
+* Head over to your AWS account, copy the public IP of the EC2 instance and then paste the IP on your browser to access the newly deployed e-commerce website.
+
+![](./img/Pasted%20image%20(22).png)
+
+* Take note of the free shipping offer.
+
+
+## Continuous Integration and Deployment Workflow.
+
+### Create a Development Branch of the repo to isolate new features or bug fixes.
+
+* Run `git checkout -b development`. This will create the developemt branch and switch to it.
+
+![](./img/Pasted%20image%20(23).png)
+
+* Locate the free shipping offer and update minimum oreder from $100 to $150 on index.html file.
+
+![](./img/Pasted%20image%20(39).png)
+
+* Stage the change you just made to index.html file. Run `git add index.html`
+* Commit the changes to your local git repo. Run `git commit -m "Add new features or fix bugs"`
+
+![](./img/Pasted%20image%20(24).png)
+
+
+
+
