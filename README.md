@@ -2,7 +2,7 @@
 
 ## Initialize Git Repository
 * Create a directory for the project, runm `mkdir MarketPeak_Ecommerce`
-* Change to the direcotory `cd MarketPeak_Ecommerce`
+* Change to the directory `cd MarketPeak_Ecommerce`
 * Initialse git `git init`
 
 ![](./img/Pasted%20image.png)
@@ -190,7 +190,7 @@
 
 ![](./img/Pasted%20image%20(36).png)
 
-### Head back you the browser and refresh the psge with the EC2 instance public IP as URL.
+### Head back you the browser and refresh the page with the EC2 instance public IP as URL.
 
 ![](./img/Pasted%20image%20(37).png)
 
