@@ -186,7 +186,7 @@
 
 * Run `sudo cp -r ~/MarketPeak_Ecommerce/* /var/www/html/`
 
-* Run `sudo systemctl reload httpd` to apply the changes
+* Run `sudo systemctl reload httpd` to apply the changes.
 
 ![](./img/Pasted%20image%20(36).png)
 
