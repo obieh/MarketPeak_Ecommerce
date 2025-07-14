@@ -1,6 +1,6 @@
 # This project demonstration deployment of E-commerce website on AWS webserver.
 
-## Initialize Git Repository
+## Initialize Git Repository.
 * Create a directory for the project, runm `mkdir MarketPeak_Ecommerce`
 * Change to the directory `cd MarketPeak_Ecommerce`
 * Initialse git `git init`
