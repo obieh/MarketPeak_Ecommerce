@@ -12,7 +12,7 @@
 
 * Customize (make changes if you desire) the template.
 
-## Stage and Commit to the template to Git
+## Stage and Commit to the template to Git.
 
 * Run `git add .` to add all files
 * Run `git config --global user.name "your git username"`
