@@ -21,7 +21,7 @@
 
 ![](./img/Pasted%20image%20(2).png)
 
-## Push to Remote git Repo
+## Push to Remote git Repo.
 * Head over to your github account and create a remote repo 'MarketPeak_Ecommerce'. Make it an empty repo.
 
 ![](./img/Pasted%20image%20(3).png)
@@ -30,7 +30,7 @@
 
 ![](./img/Pasted%20image%20(4).png) 
 
-* Push to remote github
+* Push to remote github.
 
 ![](./img/Pasted%20image%20(5).png)
 
