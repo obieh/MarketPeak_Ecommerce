@@ -34,8 +34,8 @@
 
 ![](./img/Pasted%20image%20(5).png)
 
-## AWS Deployment
-* Head over to your aws account and create an ec2 instance
+## AWS Deployment.
+* Head over to your aws account and create an ec2 instance.
 
 ![](./img/Pasted%20image%20(6).png)
 
