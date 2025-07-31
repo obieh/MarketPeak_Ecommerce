@@ -75,7 +75,7 @@
 
 * Verify git installation, run `git --version`
 
-![](./img/Pasted%20image%20(15).png)
+![](./img/Pasted%20image%20(15).png).
 
 
 * clone the MarketPeak_Ecommerce repo via ssh using the ssh url copied earlier.`git clone git@github.com:yourusername/MarketPeak_Ecommerce.git`
